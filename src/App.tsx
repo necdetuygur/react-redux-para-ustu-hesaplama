@@ -18,6 +18,7 @@ const App = (props: any) => {
                 setPara(parseFloat(e.target.value));
               }}
             />
+            <span className="input-group-text">₺</span>
           </div>
           <ul className="list-group list-group-flush">
             {Object.entries(props.paraUstu).map((t: any, k: any) => (
